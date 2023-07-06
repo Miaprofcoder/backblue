@@ -40,9 +40,12 @@ router.post('/', (req, res) => {
   // create a new tag
 });
 
-router.put('/:id', (req, res) => {
+router.put("/:id", (req, res) => {
   // update a tag's name by its `id` value
-});
+  Tag.create(req.body)
+    .then((tag) => res.status(200).json(tag))
+    .catch((err) => res.status(404).json(err));
+});;
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
