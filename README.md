@@ -5,7 +5,12 @@ Module# 13 Object-Relational Mapping (ORM): E-Commerce Back End
 This is the 13th assignment or challenge for our bootcamp class. Our assignment this week is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
 ## Installation
+
 MySQL2, Sequelize and dotenv packages are needed to connect Express.js API to MySQL and store sensitive data.
+
+```
+npm install express sequelize mysql2 dotenv
+```
 
 * Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands.
 
@@ -18,7 +23,7 @@ Given the command-line application that accepts user input, user will be prompte
 
 URL of Github repository : https://github.com/mvfranzke/E-Commerce-Back-End
 
-Video Link (user flow): 
+Video Link (user flow): https://drive.google.com/file/d/1pqCWYUp9qFVoo614znAGnO_v2jPlMeXE/view
 
 ## Credits
 
