@@ -18,7 +18,7 @@ npm install express sequelize mysql2 dotenv
 
 
 ## Usage
-Given the command-line application that accepts user input, user will be prompted with a menu of option : view all departments, view all roles, view all employees, add a department, add a role, add an employee, update an employee role, and delete employee.
+Given a functional Express.js API. When a user add database name, MySQL username, and MySQL password to an environment variable file they're able to connect to a database using Sequelize. When they run `npm run seed` in the comman line, their table is seeded with data. When they run the file using `npm server.js` server is started and sequelize models are synced to the MyQQL database and they're able to open API routes in Insomnia for categories, products and tags.
 
 
 URL of Github repository : https://github.com/mvfranzke/E-Commerce-Back-End
